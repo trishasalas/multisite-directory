@@ -1,0 +1,44 @@
+#mdp-site-directory .mdp-site {
+    overflow: hidden;
+    box-shadow: 0 -1px 10px #eee;
+}
+
+#mdp-site-directory ul {
+    margin: 0;
+    padding: 0;
+}
+
+#mdp-site-directory li {
+	color: #505C69;
+	font-size: 90%;
+	padding: 1em;
+	margin: 0 0 1em 0;
+	background: #fff;
+    border-left: 6px solid #ddd;
+    box-shadow: -1px -1px 10px #eee;
+    overflow: hidden;
+    height: 40px;
+    line-height: 1;
+}
+
+#mdp-site-directory li:last-child {
+	margin-bottom: 0;
+}
+
+#mdp-site-directory li a {
+	text-decoration: none;
+}
+#mdp-site-directory .rss-link {
+	float:right;
+	display: inline-block;
+	margin-right: 1em;
+}
+#mdp-site-directory .rss-link:after {
+	font-size:110%;
+	content: "\f303";
+	font-family: dashicons;
+	color: #F49100;
+	line-height: 1;
+	margin-left: .5em;
+
+}
